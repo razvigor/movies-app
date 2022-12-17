@@ -1,0 +1,33 @@
+@import '../../common/colors.scss';
+.card-item {
+	background: $secondary-color;
+	cursor: pointer;
+	transition: all 0.3s;
+
+	&:hover {
+		transform: scale(1.1);
+		transition: all 0.3s;
+	}
+	.card-inner {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.card-top {
+	img {
+		width: 100%;
+	}
+}
+
+.card-bottom {
+	padding: 20px;
+}
+.card-info {
+	color: $font-primary;
+	h4 {
+		font-size: 18px;
+		font-weight: 400;
+		margin-bottom: 10px;
+	}
+}
